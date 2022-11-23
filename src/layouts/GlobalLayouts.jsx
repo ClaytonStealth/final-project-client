@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom';
 import { CartPage } from '../Components/CartPage';
 
 const GlobalLayouts = () => {
+  
   return (
     <div>
       <NavBar />
