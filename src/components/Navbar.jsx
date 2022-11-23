@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import CartPage from "../pages/CartPage";
+import Cart from "./Cart";
 
 import {
   XMarkIcon,
@@ -8,12 +8,11 @@ import {
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
 
-const Navbar = () => {
-  const [open, setOpen] = useState(false);
+const Navbar = (props) => {
+  const { sideBar, setSideBar } = props;
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
-  const [sidebar, setSidebar] = useState(false);
-  const showSidebar = () => setOpen(!open);
+  const showSidebar = () => setSideBar(!sideBar);
   return (
     <div className='w-screen h-[80px] z-10 bg-zinc-200  fixed drop-shadow-lg'>
       <div className=' px-2 flex justify-between items-center w-full h-full'>
@@ -34,8 +33,8 @@ const Navbar = () => {
               showSidebar();
             }}
           >
-            <button className=' rounded-full focus:outline-none focus:ring-2 focus:ring-black mr-4 mt-3'>
-              <ShoppingCartIcon className='w-5 ' />
+            <button className=' rounded-full focus:outline-none focus:ring-2 focus:ring-black mr-4 mt-4 '>
+              <ShoppingCartIcon className='w-8 ' />
             </button>
           </div>
           <button className='border-none bg-transparent text-black mr-4'>
@@ -50,9 +49,9 @@ const Navbar = () => {
           }}
         >
           {!nav ? (
-            <Cog8ToothIcon className='w-5' />
+            <Cog8ToothIcon className='w-8 mr-8' />
           ) : (
-            <XMarkIcon className='w-5' />
+            <XMarkIcon className='w-6 mr-8' />
           )}
         </div>
       </div>
