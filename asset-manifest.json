@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/final-project-client/static/css/main.acc77563.css",
+    "main.js": "/final-project-client/static/js/main.d5f6c9d2.js",
+    "static/media/login.jpg": "/final-project-client/static/media/login.3b155d0d3624657bc746.jpg",
+    "static/media/bstop.png": "/final-project-client/static/media/bstop.3e0f3c941c203688b82d.png",
+    "static/media/mutant-soda.png": "/final-project-client/static/media/mutant-soda.73833bb89865cfa87fa1.png",
+    "static/media/ClayStealth.png": "/final-project-client/static/media/ClayStealth.16bc8526fafae9f8d3c5.png",
+    "static/media/dadbod-centaur.jpg": "/final-project-client/static/media/dadbod-centaur.e3cc7c7bcc8380f5f4ef.jpg",
+    "index.html": "/final-project-client/index.html",
+    "main.acc77563.css.map": "/final-project-client/static/css/main.acc77563.css.map",
+    "main.d5f6c9d2.js.map": "/final-project-client/static/js/main.d5f6c9d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acc77563.css",
+    "static/js/main.d5f6c9d2.js"
+  ]
+}
